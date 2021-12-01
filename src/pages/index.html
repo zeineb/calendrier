@@ -1,0 +1,152 @@
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<script src="/Users/I301891/Desktop/carnet/sweetalert2.min.js"></script>
+<script src="/Users/I301891/Desktop/carnet/sweetalert.min.css"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/5.3.8/sweetalert2.min.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/5.3.8/sweetalert2.min.css" rel="stylesheet"/>
+
+
+<link rel="stylesheet" href="/Users/I301891/Desktop/carnet/sweetalert.min.css">
+
+
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<div class="container-fluid">
+  <h2 class="red-text">Calendrier de l'avent</h2>
+
+  <p>Click here for <a href="#">More info</a>.</p>
+
+
+  <div id="test"></div>
+
+    <div style="position:relative;">
+       <img  style="width:1200px;height:1
+       200px;" src="/Users/I301891/Desktop/carnet/Calendrier-de-lavent.png">
+       <table style="width:1200px;height:1000px;position:absolute;top:0;left:0;" border=0>
+         <tr>
+           <td onclick="myfunction()"> </td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+         </tr>
+         <tr>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+         </tr>
+         <tr>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+         </tr>
+         <tr>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+           <td onclick="myfunction()"></td>
+         </tr>
+
+       </table>
+    </div>
+
+
+</div>
+
+
+<div id="myPicture">  </div>
+
+<script>
+  //import swal from 'sweetalert';
+//  window.Swal = swal;
+
+function myfunction(){
+
+  var myPix = new Array("/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.37.45.png","img/Screenshot 2021-11-25 at 09.38.33.png","img/Screenshot 2021-11-25 at 09.39.22.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.39.32.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.39.55.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.40.10.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.40.29.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.41.02.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.42.43.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.43.34.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.43.44.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.30.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.57.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.51.24.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.51.40.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.52.30.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.54.53.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.55.07.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.55.19.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.05.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.28.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.48.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.02.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.11.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.28.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.38.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.11.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.22.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.46.png","//Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.00.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.09.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.43.png","img/Screenshot 2021-11-25 at 10.01.08.png");
+
+  var randomNum = Math.floor(Math.random() * myPix.length);
+   Swal.fire({
+     imageUrl: myPix[randomNum],
+     imageWidth: 400,
+     imageHeight: 300,
+     imageAlt: 'Custom image',
+     confirmButtonText: 'Ok',
+    }).then(function(value) {
+    if(value === true) {
+      Swal.hide;
+    }
+   })
+
+
+};
+
+function random_pic()
+{
+var myPix = new Array("/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.37.45.png","img/Screenshot 2021-11-25 at 09.38.33.png","img/Screenshot 2021-11-25 at 09.39.22.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.39.32.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.39.55.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.40.10.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.40.29.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.41.02.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.42.43.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.43.34.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.43.44.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.30.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.57.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.51.24.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.51.40.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.52.30.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.54.53.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.55.07.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.55.19.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.05.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.28.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.57.48.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.02.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.11.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.28.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.58.38.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.11.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.22.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.59.46.png","//Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.00.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.09.png","/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 10.00.43.png","img/Screenshot 2021-11-25 at 10.01.08.png");
+
+
+var randomNum = Math.floor(Math.random() * myPix.length);
+//document.getElementById("demo").src = myPix[randomNum];
+// <img src='myPix[randomNum]'> </Users/I301891/Desktop/carnet/Users/I301891/Desktop/carnet/img>
+
+Swal.fire({
+  title: 'Sweet!',
+  text: 'Modal with a custom image.',
+  imageUrl: 'myPix[randomNum]',
+  imageWidth: 400,
+  imageHeight: 200,
+  imageAlt: 'Custom image',
+  showConfirmButton:true,
+  preConfirm: function(end) {
+   window.location.href='?'
+  }
+})
+
+
+/*Swal.fire({
+  title: 'Custom width, padding, background.',
+  width: 600,
+  padding: '3em',
+  background: '#fff url(/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.30.png)',
+  backdrop: `
+    rgba(0,0,123,0.4)
+    url("/Users/I301891/Desktop/carnet/img/Screenshot 2021-11-25 at 09.50.30.png")
+    left top
+    no-repeat
+  `
+}) */
+
+
+
+}
+</script>
